@@ -1,0 +1,26 @@
+/* adminstyles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
